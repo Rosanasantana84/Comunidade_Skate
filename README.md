@@ -1,16 +1,103 @@
-# Comunidade_Skate
+# Guia de estilos
 
-![inicio mobile skate](https://github.com/Rosanasantana84/Comunidade_Skate/assets/111008983/bc664e8a-06b4-4dff-bd2e-06bb2c6dbe7f)
-Curso de Dispondo elementos com Flexbox e Grid
-No curso, realizei a montagem de uma página de comunidade de skate, utilizando o Figma como ferramenta principal.
+Toda a estilização que será usada no projeto dentro do figma.
 
-![tela principal descktop](https://github.com/Rosanasantana84/Comunidade_Skate/assets/111008983/54fa6248-0bf2-4985-8ac7-01eda17650b4)
+[Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
-Minha atenção se voltou especialmente para a página inicial, onde desenvolvi inicialmente a versão mobile, seguindo a abordagem "mobile first". Em seguida, adaptei o layout para outros dispositivos, como desktop. Dentro da página inicial, foi trabalhado a estruturação e estilização de diversos elementos, como cabeçalho, menu lateral e outros componentes importantes. Além disso, explorado a evolução do layout para a versão desktop, realizando alterações e aplicando novas propriedades CSS conforme necessário. Durante o curso, foram propostos exercícios e disponibilizados materiais extras, como artigos, para auxiliar na assimilação dos conceitos. Ao final do curso, obtive um resultado semelhante ao proposto, com um layout responsivo que se adequa a diferentes dispositivos.
+## Fonte
 
-![tela 2 descktop](https://github.com/Rosanasantana84/Comunidade_Skate/assets/111008983/1eda37f3-a64c-4b57-bfcd-3ac9a89c746f)
+```html
+Open Sans:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+```
 
-Uma parte interessante do curso foi a inclusão de elementos interativos, como a implementação de um menu lateral que pode ser mostrado ou ocultado.
-Portanto, tive a oportunidade de aprender e colocar em prática todo o conhecimento adquirido, criando uma página de comunidade de skate funcional e visualmente atraente.
+## Cores
 
-![tela 3 descktop](https://github.com/Rosanasantana84/Comunidade_Skate/assets/111008983/ece105df-026d-4a06-9fa6-a3f3afe2dddd)
+corpo: `#1D232A`
+
+cabeçalho: `#1D232A`
+
+cabeçalho mobile: `#15191C`
+
+menu lateral: `#15191C`
+
+cartão: `#2C343A`
+
+fonte: `#FFFFFF`
+
+fonte alternativa: `#95999C`
+
+links: `#0480DC`
+
+botão: `#0480DC`
+
+sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
+
+## Ícones
+
+Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
+
+```css
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+```
+
+> Cuidado com a localização do arquivo `icones.ttf`
+
+Camisas = `\e900`
+
+Carrinho = `\e901`
+
+Inicio = `\e902`
+
+Integrantes = `\e903`
+
+Menu = `\e904`
+
+Moeda = `\e905`
+
+Notificação = `\e906`
+
+Pico = `\e908`
+
+Picos = `\e909`
+
+Pinturas = `\e90a`
+
+Play = `\e90b`
+
+Relogio = `\e90c`
+
+Seta-baixo = `\e90d`
+
+Videos = `\e90e`
+
+Visualizacao = `\e90f`
+
+## Espaçamentos
+
+Espaço interno botão: `8px`
+
+Espaço entre elementos do botão: `8px`
+
+Espaço entre elementos: `16px/8px`
+
+Espaçamento interno do corpo: `16px`
+
+Espaçamento entre o título do cartão de recentes e seus itens: `24px`
+
+## Tamanhos
+
+Tamanho do dispositivo mobile: `360px`
+
+Tamanho do dispositivo desktop: `1440px`
+
+Largura máxima do conteúdo principal: `1120px`
+
+Largura máxima de um cartão desktop: `256px`
+
+Altura mínima de um cartão: `320px`
